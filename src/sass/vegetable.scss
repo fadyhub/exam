@@ -1,0 +1,10 @@
+.shop-btn-2{
+    border: 1px solid #fff;
+    background-color: $vegetable-color;
+    color: #fff;
+    padding: 20px 40px;
+    &:hover{
+        background-color: #fff;
+        color: $vegetable-color;
+    }
+}

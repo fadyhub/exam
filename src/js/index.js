@@ -22,17 +22,13 @@ import '@fortawesome/fontawesome-free/js/all.min';
         }, false);
       });
     }, false);
-    $('a').click(function(){
-      $(this).addClass('active')
-         .siblings()
-         .removeClass('active');
-    });
     }
 )();
 
-$('.nav li').click(function() {
-  $('.nav li').removeClass('active');
-  $(this).addClass('active');
+document.querySelectorAll('.add-to-cart').forEach(item => {
+  item.addEventListener("click", () => {
+      alert("أضيف المُنتج إلى العربة")
+  })
 });
 
 
