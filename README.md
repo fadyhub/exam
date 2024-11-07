@@ -19,10 +19,10 @@
 <h1>كيفية فتح المشروع؟</h1>
 <ul>
   <li>
-    عن طريق Node.js: git clone 'link'
+    عن طريق 'Node.js: git clone 'link
   </li>
   <li>
-    
+  أو عن طريق github pages
   </li>
 
 </ul>
