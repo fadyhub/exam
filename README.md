@@ -19,16 +19,11 @@
 <h1>كيفية فتح المشروع؟</h1>
 <ul>
   <li>
-    عن طريق Node.js: git clone <link github>
+    عن طريق Node.js: git clone 'link'
   </li>
   <li>
-    صفحة تحتوي نبذة عن تاريخ المطعم
+    
   </li>
-  <li>
-    صفحة عن المطعم
-  </li>
-  <li>
-    صفحة للتواصل
-  </li>
+
 </ul>
 
