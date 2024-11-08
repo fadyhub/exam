@@ -1,11 +1,7 @@
-.shop-btn{
-    border: 1px solid #fff;
-    background-color: $margaret-color;
-    color: #fff;
-    padding: 20px 40px;
-    &:hover{
-        background-color: #fff;
-        color: $margaret-color;
+@import './mixins';
+.about{
+    .shop-btn{
+        @include button($margaret-color, white, $margaret-color);   
     }
 }
 
@@ -46,5 +42,10 @@
 .similar{
     img{
         height: 400px;
+    }
+    .card{
+        .shop-btn{
+            @include button($margaret-color, white, $margaret-color);
+        }
     }
 }

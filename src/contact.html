@@ -7,37 +7,39 @@
 </head>
 <body>
     <div class="container-fluid">
-        <section class="top-menu">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+      <section class="top-menu">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top w-100">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="images/logo.png" alt="pizza">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
 
-                    <a href="index.html" class="navbar-brand p-0">
-                        <img src="images/logo.png" alt="pizza">
-                    </a>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active p-2">
-                          <a class="nav-link" href="/index.html">الرئيسية</a>
-                        </li>
-                        <li class="nav-item p-2">
-                          <a class="nav-link" href="/about.html">حول المطعم</a>
-                        </li>
-                        <li class="nav-item p-2">
-                            <a class="nav-link" href="/contact.html">اتصل بنا</a>
-                        </li>
-                      </ul>
-                    </div>
-                </nav>
-            </div>
-        </section>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item p-2">
+                      <a class="nav-link" href="/index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item p-2">
+                      <a class="nav-link" href="/about.html">حول المطعم</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="/contact.html">اتصل بنا</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
 
+          <div class="container">
             <div class="row">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.42747405611!2d46.6755206!3d24.712200499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03280e046f99%3A0x37737eab160a212!2z2YXYsdmD2LIg2KfZhNmF2YXZhNmD2Kk!5e0!3m2!1sar!2seg!4v1730573306844!5m2!1sar!2seg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.42747405611!2d46.6755206!3d24.712200499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03280e046f99%3A0x37737eab160a212!2z2YXYsdmD2LIg2KfZhNmF2YXZhNmD2Kk!5e0!3m2!1sar!2seg!4v1730573306844!5m2!1sar!2seg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          </div>
+
 
           <div class="container">
             <div class="row mt-5 mb-5">
@@ -99,44 +101,46 @@
             </div>
       
           </div>
+          
+          <footer class="footer mt-5">
+            <div class="container">
+                <div class="top-footer">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="widget">
+                                <h4>عن المطعم</h4>
+                                <p class="aboutus-p">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="widget">
+                                <h4>القائمة البريدية</h4>
+                                <form class="form-group needs-validation" novalidate>
+                                    <input type="email" class="form-control" placeholder="البريد الإلكتروني" required>
+                                    <div class="invalid-feedback">
+                                        يرجى إدخال البريد الإلكتروني
+                                      </div>
+                                    <button type="submit" class="btn">أضفني للقائمة البريدية</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="links text-center">
+                      <a href="">سياسة الخصوصية</a>
+                      <a href="about.html">حول المطعم</a>
+                      <a href="">الوظائف الشاغرة</a>                
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>    
 
-    <footer class="footer mt-5">
-      <div class="container">
-          <div class="top-footer">
-              <div class="row">
-                  <div class="col-md-6">
-                      <div class="widget">
-                          <h4>عن المطعم</h4>
-                          <p class="aboutus-p">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ</p>
-                          <ul class="list-inline">
-                              <li class="list-inline-item"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                              <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                              <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="widget">
-                          <h4>القائمة البريدية</h4>
-                          <form class="form-group needs-validation" novalidate>
-                              <input type="email" class="form-control" placeholder="البريد الإلكتروني" required>
-                              <div class="invalid-feedback">
-                                  يرجى إدخال البريد الإلكتروني
-                                </div>
-                              <button type="submit" class="btn">أضفني للقائمة البريدية</button>
-                          </form>
-                      </div>
-                  </div>
-              </div>
-              <div class="links text-center">
-                <a href="">سياسة الخصوصية</a>
-                <a href="about.html">حول المطعم</a>
-                <a href="">الوظائف الشاغرة</a>                
-              </div>
-          </div>
-      </div>
-  </footer>
+
     
 
     

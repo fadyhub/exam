@@ -1,10 +1,14 @@
-.shop-btn-1{
-    border: 1px solid #fff;
-    background-color: $chicken-color;
-    color: #fff;
-    padding: 20px 40px;
-    &:hover{
-        background-color: #fff;
-        color: $chicken-color;
+@import './mixins';
+.about{
+    .shop-btn-1{
+        @include button($chicken-color, white, $chicken-color);   
+    }
+}
+
+.similar{
+    .card{
+        .shop-btn-1{
+            @include button($chicken-color, white, $chicken-color);
+        }
     }
 }
