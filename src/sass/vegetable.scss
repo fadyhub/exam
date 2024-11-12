@@ -1,0 +1,15 @@
+@import './mixins';
+
+.similar{
+    .card{
+        button{
+            @include button($vegetable-color, white, $vegetable-color);
+        }
+    }
+}
+
+.about{
+    .shop-btn-2{
+        @include button($vegetable-color, white, $vegetable-color);   
+    }
+}

@@ -1,0 +1,39 @@
+.custom-btn-2{
+    padding: 3px 30px;
+    background-color: $main-color;
+    color: #fff !important;
+    font-size: 18px;
+    border-radius: 30px;
+    text-decoration: none;
+ 
+    &:hover,
+    &:focus{
+        color: $main-color !important;
+        background-color: $custom-color !important;
+    }
+}
+
+iframe{
+    height: 400px;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    li{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+
+    }
+}
+
+.subs-btn{
+    border: 1px solid #fff;
+    background-color: $main-color;
+    color: #fff;
+}
+
+::placeholder{
+    text-align: right;
+}

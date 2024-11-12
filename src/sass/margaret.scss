@@ -1,0 +1,51 @@
+@import './mixins';
+.about{
+    .shop-btn{
+        @include button($margaret-color, white, $margaret-color);   
+    }
+}
+
+.said-about-restaurant{
+    .carousel-item{
+        transition: all .5s;
+        .custom-img {
+            border-radius: 10px;
+            margin: 20px;
+        }
+    
+        .custom-paragraph {
+            line-height: 2em;
+        }
+        .rating{
+            color: gold;
+        }
+    } 
+        
+    .fa-angle-right,
+    .fa-angle-left {
+        color: #252222;
+    }
+
+    a.carousel-control-next {
+        position: absolute;
+        left: 7%;
+        width: 0;
+    }
+    
+    a.carousel-control-prev {
+        position: absolute;
+        right: 7%;
+        width: 0;
+    }
+}
+
+.similar{
+    img{
+        height: 400px;
+    }
+    .card{
+        .shop-btn{
+            @include button($margaret-color, white, $margaret-color);
+        }
+    }
+}
